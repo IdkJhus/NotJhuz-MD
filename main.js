@@ -73,7 +73,7 @@ const { state, saveState } = useSingleFileAuthState(global.authFile)
 const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
-browser: ['Jaashi <3','Firefox','1.0.0'],
+browser: ['NotJhuz-MD','Brave','1.0.0'],
 }
 
 global.conn = makeWASocket(connectionOptions)
