@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let texto1 = `*https://github.com/BrunoSobrino/TheMystic-Bot-MD*`
+let texto1 = `*https://github.com/IdkJhus/NotJhuz-MD*`
 let buttonMessage= {
 'document': { url: `https://github.com/IdkJhus` },
 'mimetype': `application/${document}`,
@@ -12,7 +12,7 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/IdkJhus',
+'mediaUrl': 'https://github.com/IdkJhus/NotJhuz-MD',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
