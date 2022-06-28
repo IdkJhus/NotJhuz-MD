@@ -36,7 +36,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > pkg install imagemagick -y
 > pkg install yarn
 > git clone https://github.com/IdkJhus/NotJhuz-MD
-> cd NotJhuz
+> cd NotJhuz-MD
 > yarn install 
 > npm install
 > npm update
