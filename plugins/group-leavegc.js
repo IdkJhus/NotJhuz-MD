@@ -8,7 +8,7 @@ let handler = async (m, { conn, args, command }) => {
         await m.reply('Nos Vemos!')
     } else if (args[0] || args.length > 5) {
         let ada = chat.find(bot => bot == args[0]) // Apakah botnya ada disitu
-        if (!ada) throw 'El Bot no se encuentra actualmente en este grupow'
+        if (!ada) throw 'El Bot no se encuentra actualmente en este grupo'
         await conn.groupLeave(args[0])
         await m.reply('Nos Vemos!')
     } else {
