@@ -113,14 +113,16 @@ let str = `
 
 ° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
 ° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
 ° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
 ° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
 ° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
 ° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
 ° ඬ⃟☑️ _${usedPrefix}enable *detect*_
 ° ඬ⃟☑️ _${usedPrefix}disable *detect*_
+° ඬ⃟☑️ _${usedPrefix}enable *delete*_
+° ඬ⃟☑️ _${usedPrefix}disable *delete*_
+° ඬ⃟☑️ _${usedPrefix}enable *antidelete*_
+° ඬ⃟☑️ _${usedPrefix}disable *antidelete*_
 ° ඬ⃟☑️ _${usedPrefix}enable *audios*_
 ° ඬ⃟☑️ _${usedPrefix}disable *audios*_
 ° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
@@ -170,9 +172,11 @@ let str = `
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}infogroup_
 ° ඬ⃟💎 _${usedPrefix}link_
+° ඬ⃟💎 _${usedPrefix}resetlink*<numero>*_
 ° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
-° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
+° ඬ⃟💎 _${usedPrefix}setpp *<texto>*_
+° ඬ⃟💎 _${usedPrefix}tagall *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setbye *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}hidetag *<texto>*_
@@ -342,6 +346,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🛠️ _${usedPrefix}spamwa *<numero|texto|cantidad>*_
 ° ඬ⃟🛠️ _${usedPrefix}styletext *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}traducir *<texto>*_
+° ඬ⃟🛠️ _${usedPrefix}inspect *<link>*_
 
 *<ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸/>*
 
@@ -392,6 +397,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}disable *gconly*_
 ° ඬ⃟👑 _${usedPrefix}banchat_
 ° ඬ⃟👑 _${usedPrefix}unbanchat_
+° ඬ⃟👑 _${usedPrefix}leavegc_
+° ඬ⃟👑 _${usedPrefix}leavegcall_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}unbanuser *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_
