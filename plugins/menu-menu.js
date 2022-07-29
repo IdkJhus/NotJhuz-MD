@@ -275,7 +275,6 @@ let str = `
 
 *<𝔹𝕌𝕊ℂ𝔸𝔻𝕆ℝ𝔼𝕊/>*
 
-° ඬ⃟🔍 _${usedPrefix}xnxxsearch *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}animeinfo *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}google *<texto>*_
 ° ඬ⃟🔍 _${usedPrefix}letra *<texto>*_
@@ -347,6 +346,8 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🛠️ _${usedPrefix}styletext *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}traducir *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}inspect *<link>*_
+° ඬ⃟🛠️ _${usedPrefix}getpp *<link>*_
+° ඬ⃟🛠️ _${usedPrefix}getname *<link>*_
 
 *<ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸/>*
 
