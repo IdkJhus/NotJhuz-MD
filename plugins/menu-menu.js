@@ -346,8 +346,9 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟🛠️ _${usedPrefix}styletext *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}traducir *<texto>*_
 ° ඬ⃟🛠️ _${usedPrefix}inspect *<link>*_
-° ඬ⃟🛠️ _${usedPrefix}getpp *<link>*_
-° ඬ⃟🛠️ _${usedPrefix}getname *<link>*_
+° ඬ⃟🛠️ _${usedPrefix}getpp *<@tag>*_
+° ඬ⃟🛠️ _${usedPrefix}getname *<@tag>*_
+° ඬ⃟🛠️ _${usedPrefix}getbio *<@tag>*_
 
 *<ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸/>*
 
