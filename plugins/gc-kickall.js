@@ -1,4 +1,5 @@
-let handler = async (m, { conn }) => {
+import { areJidsSameUser } from '@adiwajshing/baileys'
+let handler = async (m, { conn, participants }) => {
   let ownerGroup = m.chat.split`-`[0] + '@s.whatsapp.net'
   let users = (await conn.fetchGroupMetadataFromWA(m.chat)).participants.map(u => u.jid)
   for (let user of users) if (user !== ownerGroup + '@s.whatsapp.net' && user !== global.conn.user.jid && user !== global.owner + '@s.whatsapp.net' && user !== '529984907794@s.whatsapp.net' && user!== '529984907794@s.whatsapp.net') await conn.groupRemove(m.chat, [user])
