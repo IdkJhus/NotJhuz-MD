@@ -12,7 +12,6 @@ let handler = async (m, { conn, text, isOwner }) => {
        } catch (e) {
     let [namagc, partici] = text.split('|')
     if (!namagc) throw 'Formato Incorrecto'
-    if (!partici) throw 'Etiqueta a un usuario como nuevo miembro'
     let mem = conn.parseMention(`@${parseInt(m.sender)} ${partici}`)
     let ha = await conn.groupCreate(namagc, mem).catch(console.error)
     console.log(JSON.stringify(ha));
