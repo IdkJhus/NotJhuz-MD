@@ -13,11 +13,11 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('NotJhuz-MD\nJhusi-Jaashi', {
+say('Mystic - Bot\nWhatsApp Bot MD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Bot creado por Jhus. Dedicado para Jaashi, si lees esto, te amo uwu`, {
+say(`Bot creado por Bruno Sobrino`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -55,6 +55,11 @@ break }})
 p.on('exit', (_, code) => {
 isRunning = false
 console.error('❎ㅤOcurrio un error inesperado:', code)
+  
+p.process.kill()
+isRunning = false
+start.apply(this, arguments)
+  
 if (code === 0) return
 watchFile(args[0], () => {
 unwatchFile(args[0])
